@@ -110,6 +110,32 @@
       text-decoration: none;
       box-shadow: 0 18px 36px rgba(0,255,163,.16);
     }
+    .proof-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+    .proof {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255,255,255,.055);
+      padding: 14px;
+    }
+    .proof strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--lime);
+      font-size: 13px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .proof span {
+      display: block;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+    }
     .hero-aside {
       display: grid;
       gap: 14px;
@@ -249,6 +275,26 @@
       line-height: 1.7;
       font-size: 14px;
     }
+    .checklist {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .check {
+      border: 1px solid rgba(156,255,87,.26);
+      border-radius: 8px;
+      background: rgba(156,255,87,.06);
+      padding: 14px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    .check b {
+      display: block;
+      color: var(--text);
+      margin-bottom: 4px;
+      font-size: 15px;
+    }
     .small {
       font-size: 12px;
       color: rgba(244,247,245,.62);
@@ -272,7 +318,7 @@
       line-height: 1.6;
     }
     @media (max-width: 1080px) {
-      .hero-inner, .notes, .grid-3, .grid-2, .grid-3 .product { grid-template-columns: 1fr; }
+      .hero-inner, .notes, .grid-3, .grid-2, .grid-3 .product, .proof-strip, .checklist { grid-template-columns: 1fr; }
       .grid-3 .product img,
       .grid-3 .product h3,
       .grid-3 .product p {
@@ -316,6 +362,20 @@
             <div class="chip">CTA: https://luma.com/Solana-Summit-Nigeria</div>
           </div>
           <a class="cta" href="https://luma.com/Solana-Summit-Nigeria">Register at Luma</a>
+          <div class="proof-strip">
+            <div class="proof">
+              <strong>Superteam Nigeria</strong>
+              <span>"Nigeria's most active web3 ecosystem" - Nigeria Web3 Landscape Report 2024 &amp; 2025, Hashed Emergent.</span>
+            </div>
+            <div class="proof">
+              <strong>Summit Context</strong>
+              <span>Returning after Abuja, the 2026 summit lands in Uyo as a 1-day gathering with product presentations, fireside chats, and workshops.</span>
+            </div>
+            <div class="proof">
+              <strong>Collection Goal</strong>
+              <span>Premium merch people keep after the event: Nigerian, globally wearable, collectible, and aligned with Solana's future vision.</span>
+            </div>
+          </div>
         </div>
         <div class="hero-aside">
           <div class="hero-note">
@@ -367,6 +427,41 @@
     <section class="section">
       <div class="section-head">
         <div>
+          <h2>Merch Ecosystem</h2>
+          <p>The collection is divided by attendee type so every group has a clear role, while the full system still feels like one premium Solana Summit Nigeria drop.</p>
+        </div>
+      </div>
+      <div class="panel checklist">
+        <div class="check">
+          <b>Attendees</b>
+          Heavyweight tee, cap, tote, sticker sheet, and collector card for general guests.
+        </div>
+        <div class="check">
+          <b>Team + Volunteers</b>
+          Utility overshirt, embroidered role patch, operations lanyard, and numbered staff card.
+        </div>
+        <div class="check">
+          <b>Speakers + Sponsors</b>
+          Limited box set with premium packaging, thank-you insert, and special edition patch.
+        </div>
+        <div class="check">
+          <b>Beach Collection</b>
+          Camp shirt, swim short, towel, tote, and bucket hat for the Akwa Ibom resort context.
+        </div>
+        <div class="check">
+          <b>Collectors</b>
+          Numbered packaging, reusable board box, sticker seal, and limited edition product cards.
+        </div>
+        <div class="check">
+          <b>Event Retail</b>
+          Booth display, product zoning, folded merch table, signage, and social-ready presentation.
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <div>
           <h2>Production Renders</h2>
           <p>These renders show the collection in use: worn on-body, presented at the event, packed for collectors, and merchandised inside a dedicated booth experience.</p>
         </div>
@@ -383,13 +478,13 @@
           <p>Booth-side merchandising with folded tees, pinned caps, a collector board, and product cards arranged like a premium pop-up, not a souvenir table.</p>
         </article>
         <article class="product">
-          <img src="assets/packaging.svg" alt="Packaging concept" />
+          <img src="assets/packaging.svg" alt="Packaging system render" />
           <h3>Packaging System</h3>
           <p>Recycled board box, tissue wrap, sticker seal, collector card, and thank-you insert. Sustainable enough to keep, sharp enough to gift.</p>
         </article>
         <article class="product">
-          <img src="assets/booth.svg" alt="Merch booth concept" />
-          <h3>Merch Booth Concept</h3>
+          <img src="assets/booth.svg" alt="Merch booth render" />
+          <h3>Merch Booth</h3>
           <p>A modular store build with Solana gradient lighting, woven wall panels, and clear categories for attendee, team, beach, and limited editions.</p>
         </article>
       </div>
@@ -450,8 +545,17 @@
           <h3>Deliverables covered</h3>
           <ul>
             <li>Core attendee collection, team collection, and beach collection.</li>
-            <li>Individual product renders, on-body renders, event display, packaging, and booth concept.</li>
+            <li>Individual product renders, people wearing the merch, event display, packaging, and booth concept.</li>
             <li>Editable SVG source files for each visual asset in the collection.</li>
+            <li>Registration CTA included: https://luma.com/Solana-Summit-Nigeria.</li>
+          </ul>
+        </div>
+        <div class="copy-block">
+          <h3>Submission requirements</h3>
+          <ul>
+            <li>Follow and tag @SuperteamNG on X.</li>
+            <li>Submit the work via X and include the Luma registration link.</li>
+            <li>Use original editable source files and production-ready render assets.</li>
           </ul>
         </div>
         <div class="copy-block">
@@ -482,7 +586,7 @@ https://luma.com/Solana-Summit-Nigeria
 
 Designed to be worn after the summit, not just at the summit.</div>
         <p class="footer">
-          Original concept package. Editable source files are the HTML and SVG assets in this folder.
+          Original submission package. Editable source files are the HTML and SVG assets in this folder.
         </p>
       </div>
     </section>

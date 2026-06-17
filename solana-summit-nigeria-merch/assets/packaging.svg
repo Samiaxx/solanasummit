@@ -41,9 +41,9 @@
       <rect x="0" y="0" width="260" height="400" rx="22" fill="#0d1418" stroke="#ffffff" stroke-opacity=".06"/>
       <path d="M40 52 H220 L210 250 H50 Z" fill="#f3eee4"/>
       <path d="M56 76 H204 L198 226 H62 Z" fill="#fffdf7"/>
-      <rect x="76" y="124" width="108" height="70" rx="16" fill="#151d22"/>
-      <text x="130" y="154" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".06em">THANK YOU</text>
-      <text x="130" y="180" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" font-weight="700">FOR BUILDING</text>
+      <rect x="54" y="124" width="152" height="80" rx="16" fill="#151d22"/>
+      <text x="130" y="154" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" font-weight="700" letter-spacing=".04em">THANK YOU</text>
+      <text x="130" y="181" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17" font-weight="700">FOR BUILDING</text>
       <path d="M74 266 H186" stroke="#c89b3c" stroke-width="3"/>
       <text x="130" y="298" text-anchor="middle" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16">Tissue wrap + card</text>
       <text x="130" y="324" text-anchor="middle" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16">made for reuse</text>

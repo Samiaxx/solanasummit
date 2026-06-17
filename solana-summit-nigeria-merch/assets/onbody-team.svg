@@ -30,10 +30,10 @@
       <circle cx="250" cy="86" r="58" fill="url(#skin1)"/>
       <path d="M186 156 C206 120, 226 108, 250 108 C274 108, 294 120, 314 156 L338 276 L162 276 Z" fill="url(#shirt)"/>
       <path d="M164 158 C188 130, 214 116, 250 116 C286 116, 312 130, 336 158 L390 258 L357 276 L324 232 L316 464 L184 464 L176 232 L143 276 L110 258 Z" fill="#151b1f"/>
-      <rect x="188" y="164" width="124" height="92" rx="14" fill="#0b1114" stroke="#c89b3c" stroke-opacity=".55" stroke-width="2"/>
-      <text x="250" y="196" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="20" letter-spacing=".06em">SUPERTEAM</text>
+      <rect x="170" y="164" width="160" height="96" rx="14" fill="#0b1114" stroke="#c89b3c" stroke-opacity=".55" stroke-width="2"/>
+      <text x="250" y="196" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="20" font-weight="700" letter-spacing=".04em">SUPERTEAM</text>
       <text x="250" y="222" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="24" font-weight="700">NG</text>
-      <text x="250" y="250" text-anchor="middle" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17" letter-spacing=".06em">TEAM JACKET</text>
+      <text x="250" y="250" text-anchor="middle" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing=".04em">TEAM JACKET</text>
       <rect x="178" y="292" width="144" height="160" rx="16" fill="#0b1114" stroke="#2c3940" stroke-width="2"/>
       <path d="M214 296 H286" stroke="#00ffa3" stroke-opacity=".4" stroke-width="3"/>
     </g>
@@ -41,9 +41,9 @@
       <circle cx="250" cy="86" r="58" fill="url(#skin2)"/>
       <path d="M184 156 C202 126, 224 112, 250 112 C276 112, 298 126, 316 156 L338 268 L162 268 Z" fill="#e9e2d3"/>
       <path d="M160 156 C180 126, 210 110, 250 110 C290 110, 320 126, 340 156 L398 258 L366 278 L334 236 L326 464 L174 464 L166 236 L134 278 L102 258 Z" fill="#f3eee4" stroke="#dfd6c6" stroke-width="2"/>
-      <rect x="186" y="174" width="128" height="74" rx="10" fill="#081114"/>
-      <text x="250" y="205" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22" letter-spacing=".08em">FROM EARN</text>
-      <text x="250" y="234" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22" font-weight="700">TO CAPITAL</text>
+      <rect x="166" y="172" width="168" height="84" rx="10" fill="#081114"/>
+      <text x="250" y="205" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22" font-weight="700" letter-spacing=".04em">FROM EARN</text>
+      <text x="250" y="235" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22" font-weight="700">TO CAPITAL</text>
       <rect x="170" y="292" width="160" height="136" rx="16" fill="#e5dccb"/>
       <path d="M170 326 H330" stroke="#c89b3c" stroke-opacity=".55" stroke-width="3"/>
       <path d="M170 352 H330" stroke="#12d6c0" stroke-opacity=".46" stroke-width="3"/>
