@@ -28,54 +28,55 @@
   </defs>
   <rect width="1400" height="820" rx="34" fill="url(#bg)"/>
   <text x="72" y="94" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="38" font-weight="700" letter-spacing=".08em">AKWA IBOM BEACH COLLECTION</text>
-  <text x="72" y="134" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="20">Resort-ready pieces for the summit weekend: relaxed, wearable, and globally styled</text>
-  <g filter="url(#shadow)" transform="translate(78,162)">
+  <text x="72" y="134" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22">Resort-ready pieces for the summit weekend:</text>
+  <text x="72" y="162" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22">relaxed, wearable, and globally styled.</text>
+  <g filter="url(#shadow)" transform="translate(78,188)">
     <rect width="1244" height="580" rx="28" fill="rgba(255,255,255,.03)" stroke="#ffffff" stroke-opacity=".08"/>
     <g transform="translate(48,42)">
       <rect x="0" y="0" width="340" height="500" rx="24" fill="#0d1418" stroke="#ffffff" stroke-opacity=".06"/>
-      <text x="24" y="42" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">TERRY CAMP SHIRT</text>
+      <text x="24" y="42" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="23" letter-spacing=".06em">TERRY CAMP SHIRT</text>
       <g transform="translate(48,66)">
         <path d="M105 32 L143 44 L170 74 L216 88 L242 54 L260 42 L291 54 L271 94 L254 102 L248 382 L79 382 L73 102 L56 94 L36 54 L67 42 L85 54 L111 88 L157 74 L184 44 Z" fill="url(#shirt)" stroke="#e7deca" stroke-width="2"/>
         <path d="M116 96 H239 V280 H116 Z" fill="url(#stripe)"/>
         <rect x="120" y="104" width="114" height="40" rx="8" fill="#0b1114" opacity=".9"/>
-        <text x="177" y="129" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="15" letter-spacing=".12em">SOLANA SUMMIT</text>
-        <text x="177" y="160" text-anchor="middle" fill="#0b1114" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16" font-weight="700">NIGERIA</text>
+        <text x="177" y="128" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".05em">SOLANA SUMMIT</text>
+        <text x="177" y="162" text-anchor="middle" fill="#0b1114" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22" font-weight="700">NIGERIA</text>
         <path d="M126 208 H228" stroke="#c89b3c" stroke-width="2"/>
         <path d="M126 228 H228" stroke="#00ffa3" stroke-width="2"/>
       </g>
-      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="15">Terry shirt with resort collar and summit chest lockup</text>
+      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">Terry shirt with resort collar and summit lockup</text>
     </g>
     <g transform="translate(390,42)">
       <rect x="0" y="0" width="340" height="500" rx="24" fill="#0d1418" stroke="#ffffff" stroke-opacity=".06"/>
-      <text x="24" y="42" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">TOTE + SWIM SHORT</text>
+      <text x="24" y="42" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="23" letter-spacing=".06em">TOTE + SWIM SHORT</text>
       <g transform="translate(44,70)">
         <path d="M106 18 L151 32 L184 74 L228 92 L262 54 L286 40 L320 58 L296 104 L274 114 L266 380 L76 380 L68 114 L46 104 L22 58 L56 40 L80 54 L114 92 L158 74 L192 32 Z" fill="#0b1114" stroke="#24353a" stroke-width="2"/>
         <circle cx="152" cy="100" r="58" fill="#0b1114" stroke="#12d6c0" stroke-opacity=".18" stroke-width="2"/>
         <path d="M122 127 C128 112, 138 102, 152 98 C166 102, 176 112, 182 127" fill="none" stroke="#00ffa3" stroke-width="2" stroke-opacity=".4"/>
         <rect x="80" y="185" width="144" height="72" rx="10" fill="url(#sea)"/>
-        <text x="152" y="214" text-anchor="middle" fill="#081114" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16" font-weight="700">INTERNET</text>
-        <text x="152" y="236" text-anchor="middle" fill="#081114" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16" font-weight="700">CAPITAL</text>
+        <text x="152" y="214" text-anchor="middle" fill="#081114" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="21" font-weight="700">INTERNET</text>
+        <text x="152" y="241" text-anchor="middle" fill="#081114" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="21" font-weight="700">CAPITAL</text>
       </g>
-      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="15">Beach tote and shorts pairing for the after-hours resort set</text>
+      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">Beach tote and shorts for the resort set</text>
     </g>
     <g transform="translate(732,42)">
       <rect x="0" y="0" width="464" height="500" rx="24" fill="#0d1418" stroke="#ffffff" stroke-opacity=".06"/>
-      <text x="24" y="42" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">WORN AT UYO</text>
+      <text x="24" y="42" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="23" letter-spacing=".06em">WORN AT UYO</text>
       <g transform="translate(40,58)">
         <circle cx="155" cy="68" r="40" fill="#d9c7a0"/>
         <path d="M113 116 C125 94, 137 86, 155 86 C173 86, 185 94, 197 116 L214 228 L96 228 Z" fill="#0b1114"/>
         <path d="M95 118 C123 96, 138 88, 155 88 C172 88, 188 96, 216 118 L268 214 L235 232 L204 182 L196 428 L114 428 L106 182 L75 232 L42 214 Z" fill="url(#shirt)" stroke="#e0d7c8" stroke-width="2"/>
         <path d="M114 142 H196 V284 H114 Z" fill="url(#stripe)"/>
         <rect x="118" y="150" width="74" height="36" rx="8" fill="#0b1114"/>
-        <text x="155" y="173" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="11" letter-spacing=".14em">SOLANA</text>
+        <text x="155" y="174" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17" letter-spacing=".04em">SOLANA</text>
         <rect x="122" y="294" width="66" height="86" rx="8" fill="#0b1114"/>
         <path d="M95 228 H55" stroke="#c89b3c" stroke-width="4"/>
         <path d="M215 228 H255" stroke="#c89b3c" stroke-width="4"/>
         <rect x="112" y="396" width="88" height="40" rx="20" fill="#12d6c0"/>
         <rect x="106" y="427" width="100" height="22" rx="8" fill="#0b1114"/>
-        <text x="155" y="443" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="11" letter-spacing=".18em">BEACH DROP</text>
+        <text x="155" y="443" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17" letter-spacing=".05em">BEACH DROP</text>
       </g>
-      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="15">Camp shirt and shorts styled for the summit beach weekend</text>
+      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">Camp shirt and shorts for the summit weekend</text>
     </g>
   </g>
 </svg>

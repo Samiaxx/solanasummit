@@ -189,7 +189,7 @@
     }
     .grid-2 {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+      grid-template-columns: 1fr;
       gap: 18px;
     }
     .product {
@@ -199,17 +199,14 @@
       padding: 14px;
     }
     .grid-3 .product {
-      display: grid;
-      grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr);
-      gap: 22px;
-      align-items: center;
+      display: block;
     }
     .grid-3 .product img {
-      grid-row: span 2;
+      grid-row: auto;
     }
     .grid-3 .product h3,
     .grid-3 .product p {
-      grid-column: 2;
+      grid-column: auto;
     }
     .product img {
       width: 100%;
@@ -218,12 +215,12 @@
       background: rgba(255,255,255,.02);
     }
     .product h3 {
-      margin: 14px 0 8px;
-      font-size: 22px;
+      margin: 18px 0 8px;
+      font-size: 24px;
     }
     .product p {
       margin: 0;
-      font-size: 16px;
+      font-size: 17px;
       line-height: 1.6;
       color: var(--muted);
     }

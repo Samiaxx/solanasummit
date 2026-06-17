@@ -23,8 +23,9 @@
   </defs>
   <rect width="1400" height="820" rx="34" fill="url(#bg)"/>
   <text x="72" y="94" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="38" font-weight="700" letter-spacing=".08em">TEAM UTILITY OVERSHIRT</text>
-  <text x="72" y="134" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="20">Production uniform for staff, volunteers, speakers, sponsors, and event operations</text>
-  <g filter="url(#shadow)" transform="translate(230,122)">
+  <text x="72" y="134" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22">Production uniform for staff, volunteers, speakers, sponsors,</text>
+  <text x="72" y="162" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22">and event operations.</text>
+  <g filter="url(#shadow)" transform="translate(230,150)">
     <rect width="940" height="600" rx="28" fill="rgba(255,255,255,.03)" stroke="#ffffff" stroke-opacity=".08"/>
     <g transform="translate(96,46)">
       <path d="M154 18 L202 32 L238 74 L316 96 L360 44 L387 30 L432 48 L404 108 L380 118 L370 490 L118 490 L108 118 L84 108 L56 48 L101 30 L128 44 L172 96 L250 74 L286 32 Z" fill="url(#shirt)" stroke="#27353a" stroke-width="2"/>
@@ -38,24 +39,26 @@
       <path d="M104 198 H118 M104 218 H118 M104 238 H118 M104 258 H118" stroke="#00ffa3" stroke-opacity=".48" stroke-width="2"/>
       <path d="M330 198 H344 M330 218 H344 M330 238 H344 M330 258 H344" stroke="#00ffa3" stroke-opacity=".48" stroke-width="2"/>
       <rect x="170" y="190" width="126" height="98" rx="12" fill="#0b1114" stroke="#ffffff" stroke-opacity=".06"/>
-      <text x="233" y="216" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16" letter-spacing=".14em">SUPERTEAM</text>
-      <text x="233" y="241" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="19" font-weight="700">NG</text>
-      <text x="233" y="264" text-anchor="middle" fill="#b8c5c0" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="11" letter-spacing=".22em">OPERATIONS</text>
+      <text x="233" y="215" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".08em">SUPERTEAM</text>
+      <text x="233" y="242" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="23" font-weight="700">NG</text>
+      <text x="233" y="269" text-anchor="middle" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16" letter-spacing=".08em">OPERATIONS</text>
       <rect x="170" y="314" width="126" height="92" rx="12" fill="#151c20" stroke="#c89b3c" stroke-opacity=".55" stroke-width="2"/>
       <path d="M182 328 H284 M182 352 H284 M182 376 H284" stroke="#00ffa3" stroke-width="2" stroke-opacity=".38"/>
-      <text x="233" y="406" text-anchor="middle" fill="#f3eee4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="12" letter-spacing=".22em">UYO UNIT</text>
+      <text x="233" y="406" text-anchor="middle" fill="#f3eee4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16" letter-spacing=".14em">UYO UNIT</text>
       <rect x="74" y="314" width="70" height="132" rx="14" fill="#141b1f" stroke="#324146" stroke-width="2"/>
       <rect x="300" y="314" width="70" height="132" rx="14" fill="#141b1f" stroke="#324146" stroke-width="2"/>
       <circle cx="112" cy="92" r="18" fill="url(#brass)"/>
       <circle cx="340" cy="92" r="18" fill="url(#brass)"/>
-      <text x="488" y="122" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="30" font-weight="700">Operations uniform with collector polish</text>
-      <text x="488" y="164" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18">Charcoal cotton twill, brass hardware, woven patch system, and high-contrast Solana mint hits.</text>
-      <g transform="translate(480,210)">
-        <rect width="310" height="118" rx="20" fill="#0f171b" stroke="#ffffff" stroke-opacity=".08"/>
-        <text x="20" y="36" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="15" letter-spacing=".12em">PRODUCTION SPEC</text>
-        <text x="20" y="64" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="14">280gsm cotton twill overshirt</text>
-        <text x="20" y="86" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="14">Embroidered role patch + screen print</text>
-        <text x="20" y="108" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="14">Numbered team run: 001-150</text>
+      <text x="488" y="118" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="32" font-weight="700">Operations uniform</text>
+      <text x="488" y="154" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="32" font-weight="700">with collector polish</text>
+      <text x="488" y="192" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="19">Charcoal twill, brass hardware, woven patches,</text>
+      <text x="488" y="218" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="19">and high-contrast Solana mint hits.</text>
+      <g transform="translate(480,252)">
+        <rect width="350" height="142" rx="20" fill="#0f171b" stroke="#ffffff" stroke-opacity=".08"/>
+        <text x="22" y="40" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".08em">PRODUCTION SPEC</text>
+        <text x="22" y="72" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">280gsm cotton twill overshirt</text>
+        <text x="22" y="100" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">Embroidered patch + screen print</text>
+        <text x="22" y="128" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">Numbered team run: 001-150</text>
       </g>
     </g>
   </g>

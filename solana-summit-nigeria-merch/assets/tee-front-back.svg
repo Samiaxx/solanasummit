@@ -30,29 +30,33 @@
   <circle cx="145" cy="108" r="110" fill="#00ffa3" opacity=".08"/>
   <circle cx="1250" cy="96" r="140" fill="#12d6c0" opacity=".07"/>
   <text x="72" y="94" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="38" font-weight="700" letter-spacing=".08em">ATTENDEE HEAVYWEIGHT TEE</text>
-  <text x="72" y="134" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="20">Front and back production render with adire-circuit language, Uyo event data, and Solana mint accents</text>
+  <text x="72" y="134" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22">Front and back production render with adire-circuit language, Uyo event data,</text>
+  <text x="72" y="162" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22">and high-contrast Solana mint accents.</text>
 
   <g filter="url(#shadow)">
-    <g transform="translate(155,170)">
+    <g transform="translate(155,186)">
       <rect x="0" y="0" width="470" height="560" rx="24" fill="rgba(255,255,255,.03)" stroke="#ffffff" stroke-opacity=".08"/>
-      <text x="28" y="46" fill="#dfe8e4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">FRONT</text>
+      <text x="28" y="46" fill="#dfe8e4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="24" letter-spacing=".12em">FRONT</text>
       <g transform="translate(55,72)">
         <path d="M146 12 L193 25 L226 70 L296 90 L332 42 L356 28 L400 48 L376 102 L351 112 L342 444 L102 444 L93 112 L68 102 L44 48 L88 28 L112 42 L148 90 L218 70 L251 25 Z" fill="url(#linen)" stroke="#e7deca" stroke-width="2"/>
         <path d="M147 13 L219 82 L291 13" fill="none" stroke="#0d1518" stroke-opacity=".16" stroke-width="10" stroke-linecap="round"/>
         <path d="M121 84 C126 66, 152 48, 177 40 C205 32, 228 32, 256 40 C282 48, 308 66, 313 84 L313 440 L121 440 Z" fill="url(#bg)"/>
         <path d="M118 100 C120 86, 125 72, 132 62 C143 47, 164 34, 192 30 H240 C268 34, 289 47, 300 62 C307 72, 312 86, 314 100 L324 430 H108 Z" fill="url(#adire)" opacity=".95"/>
         <path d="M196 71 L250 71 L260 109 L186 109 Z" fill="#f3eee4" opacity=".95"/>
-        <rect x="190" y="118" width="68" height="52" rx="8" fill="#071013"/>
-        <text x="224" y="136" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="10" letter-spacing=".16em">SOLANA</text>
-        <text x="224" y="151" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="9" font-weight="700">SUMMIT NIGERIA</text>
+        <rect x="174" y="112" width="100" height="78" rx="9" fill="#071013"/>
+        <text x="224" y="138" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17" font-weight="700" letter-spacing=".04em">SOLANA</text>
+        <text x="224" y="162" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="15" font-weight="700">SUMMIT</text>
+        <text x="224" y="181" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="15" font-weight="700">NIGERIA</text>
         <path d="M126 168 H312" stroke="#00ffa3" stroke-opacity=".65" stroke-width="3"/>
-        <text x="224" y="213" text-anchor="middle" fill="#f3eee4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">UYO 2026</text>
-        <text x="224" y="360" text-anchor="middle" fill="#f3eee4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="13" letter-spacing=".12em">FROM EARN TO INTERNET CAPITAL MARKETS</text>
+        <text x="224" y="219" text-anchor="middle" fill="#f3eee4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="25" letter-spacing=".08em">UYO 2026</text>
+        <rect x="122" y="335" width="204" height="58" rx="8" fill="#071013" fill-opacity=".72"/>
+        <text x="224" y="358" text-anchor="middle" fill="#f3eee4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16" font-weight="700" letter-spacing=".03em">FROM EARN TO INTERNET</text>
+        <text x="224" y="381" text-anchor="middle" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="16" font-weight="700" letter-spacing=".04em">CAPITAL MARKETS</text>
       </g>
     </g>
-    <g transform="translate(770,170)">
+    <g transform="translate(770,186)">
       <rect x="0" y="0" width="470" height="560" rx="24" fill="rgba(255,255,255,.03)" stroke="#ffffff" stroke-opacity=".08"/>
-      <text x="28" y="46" fill="#dfe8e4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">BACK</text>
+      <text x="28" y="46" fill="#dfe8e4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="24" letter-spacing=".12em">BACK</text>
       <g transform="translate(57,72)">
         <path d="M146 12 L193 25 L226 70 L296 90 L332 42 L356 28 L400 48 L376 102 L351 112 L342 444 L102 444 L93 112 L68 102 L44 48 L88 28 L112 42 L148 90 L218 70 L251 25 Z" fill="url(#inktee)" stroke="#24353a" stroke-width="2"/>
         <path d="M122 72 C154 46, 194 31, 242 31 C287 31, 327 46, 355 72" fill="none" stroke="#00ffa3" stroke-opacity=".46" stroke-width="3"/>
