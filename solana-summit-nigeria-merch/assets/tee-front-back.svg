@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-label="Attendee tee front and back production render">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f191d"/>
+      <stop offset="100%" stop-color="#071013"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00ffa3"/>
+      <stop offset="100%" stop-color="#12d6c0"/>
+    </linearGradient>
+    <linearGradient id="linen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#ded6c5"/>
+    </linearGradient>
+    <linearGradient id="inktee" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121c21"/>
+      <stop offset="100%" stop-color="#071013"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#000" flood-opacity=".34"/>
+    </filter>
+    <pattern id="adire" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M0 20 H80 M0 60 H80" stroke="#12d6c0" stroke-opacity=".18" stroke-width="6"/>
+      <path d="M20 0 V80 M60 0 V80" stroke="#f3eee4" stroke-opacity=".08" stroke-width="4"/>
+      <path d="M12 40 C24 18, 56 18, 68 40 C56 62, 24 62, 12 40Z" fill="none" stroke="#00ffa3" stroke-opacity=".12" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1400" height="820" rx="34" fill="url(#bg)"/>
+  <rect x="42" y="42" width="1316" height="736" rx="28" fill="url(#bg)" stroke="#ffffff" stroke-opacity=".08"/>
+  <circle cx="145" cy="108" r="110" fill="#00ffa3" opacity=".08"/>
+  <circle cx="1250" cy="96" r="140" fill="#12d6c0" opacity=".07"/>
+  <text x="72" y="94" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="38" font-weight="700" letter-spacing=".08em">ATTENDEE HEAVYWEIGHT TEE</text>
+  <text x="72" y="134" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="20">Front and back production render with adire-circuit language, Uyo event data, and Solana mint accents</text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(155,170)">
+      <rect x="0" y="0" width="470" height="560" rx="24" fill="rgba(255,255,255,.03)" stroke="#ffffff" stroke-opacity=".08"/>
+      <text x="28" y="46" fill="#dfe8e4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">FRONT</text>
+      <g transform="translate(55,72)">
+        <path d="M146 12 L193 25 L226 70 L296 90 L332 42 L356 28 L400 48 L376 102 L351 112 L342 444 L102 444 L93 112 L68 102 L44 48 L88 28 L112 42 L148 90 L218 70 L251 25 Z" fill="url(#linen)" stroke="#e7deca" stroke-width="2"/>
+        <path d="M147 13 L219 82 L291 13" fill="none" stroke="#0d1518" stroke-opacity=".16" stroke-width="10" stroke-linecap="round"/>
+        <path d="M121 84 C126 66, 152 48, 177 40 C205 32, 228 32, 256 40 C282 48, 308 66, 313 84 L313 440 L121 440 Z" fill="url(#bg)"/>
+        <path d="M118 100 C120 86, 125 72, 132 62 C143 47, 164 34, 192 30 H240 C268 34, 289 47, 300 62 C307 72, 312 86, 314 100 L324 430 H108 Z" fill="url(#adire)" opacity=".95"/>
+        <path d="M196 71 L250 71 L260 109 L186 109 Z" fill="#f3eee4" opacity=".95"/>
+        <rect x="190" y="118" width="68" height="52" rx="8" fill="#071013"/>
+        <text x="224" y="136" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="10" letter-spacing=".16em">SOLANA</text>
+        <text x="224" y="151" text-anchor="middle" fill="#00ffa3" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="9" font-weight="700">SUMMIT NIGERIA</text>
+        <path d="M126 168 H312" stroke="#00ffa3" stroke-opacity=".65" stroke-width="3"/>
+        <text x="224" y="213" text-anchor="middle" fill="#f3eee4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">UYO 2026</text>
+        <text x="224" y="360" text-anchor="middle" fill="#f3eee4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="13" letter-spacing=".12em">FROM EARN TO INTERNET CAPITAL MARKETS</text>
+      </g>
+    </g>
+    <g transform="translate(770,170)">
+      <rect x="0" y="0" width="470" height="560" rx="24" fill="rgba(255,255,255,.03)" stroke="#ffffff" stroke-opacity=".08"/>
+      <text x="28" y="46" fill="#dfe8e4" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18" letter-spacing=".12em">BACK</text>
+      <g transform="translate(57,72)">
+        <path d="M146 12 L193 25 L226 70 L296 90 L332 42 L356 28 L400 48 L376 102 L351 112 L342 444 L102 444 L93 112 L68 102 L44 48 L88 28 L112 42 L148 90 L218 70 L251 25 Z" fill="url(#inktee)" stroke="#24353a" stroke-width="2"/>
+        <path d="M122 72 C154 46, 194 31, 242 31 C287 31, 327 46, 355 72" fill="none" stroke="#00ffa3" stroke-opacity=".46" stroke-width="3"/>
+        <path d="M122 90 C164 58, 206 42, 247 42 C295 42, 334 58, 355 90" fill="none" stroke="#12d6c0" stroke-opacity=".28" stroke-width="2"/>
+        <g transform="translate(87,116)">
+          <rect x="0" y="0" width="294" height="272" rx="16" fill="rgba(255,255,255,.03)" stroke="#ffffff" stroke-opacity=".05"/>
+          <text x="147" y="58" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="34" font-weight="800">FROM EARN</text>
+          <text x="147" y="112" text-anchor="middle" fill="#9cff57" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="34" font-weight="800">TO</text>
+          <text x="147" y="166" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="30" font-weight="700">INTERNET</text>
+          <text x="147" y="216" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="30" font-weight="700">CAPITAL MARKETS</text>
+          <path d="M22 22 H272 M22 250 H272" stroke="#c89b3c" stroke-opacity=".55" stroke-width="2"/>
+          <path d="M18 140 C58 112, 112 112, 147 140 C182 168, 236 168, 276 140" fill="none" stroke="#12d6c0" stroke-opacity=".22" stroke-width="2"/>
+        </g>
+        <path d="M98 416 C136 398, 166 394, 224 394 C282 394, 316 399, 338 416" fill="none" stroke="#c89b3c" stroke-width="3" stroke-opacity=".62"/>
+        <path d="M118 436 H322" stroke="#00ffa3" stroke-width="2" stroke-opacity=".4"/>
+      </g>
+    </g>
+  </g>
+</svg>
