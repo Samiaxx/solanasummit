@@ -12,8 +12,8 @@
       --surface-2: #10251b;
       --surface-3: #142e22;
       --text: #fbfff8;
-      --muted: #c7d8cc;
-      --quiet: #8fa69a;
+      --muted: #e2efe6;
+      --quiet: #b8cabe;
       --line: rgba(219, 255, 220, 0.18);
       --line-strong: rgba(156, 255, 87, 0.34);
       --lime: #9cff57;
@@ -487,33 +487,6 @@
       line-height: 1.7;
     }
 
-    .score-grid {
-      display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .score {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 16px;
-      background: rgba(255, 255, 255, 0.04);
-    }
-
-    .score span {
-      display: block;
-      color: var(--quiet);
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 8px;
-    }
-
-    .score strong {
-      font-size: 32px;
-      color: var(--lime);
-    }
-
     .footer {
       padding: 30px 0 42px;
       color: var(--quiet);
@@ -552,8 +525,7 @@
       .ecosystem,
       .story-grid,
       .matrix,
-      .production,
-      .score-grid {
+      .production {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
     }
@@ -592,7 +564,6 @@
       .story-grid,
       .matrix,
       .production,
-      .score-grid,
       .collection-card .copy {
         grid-template-columns: 1fr;
       }
@@ -615,7 +586,7 @@
           <a href="#collections">Collections</a>
           <a href="#story">Story</a>
           <a href="#mockups">Mockups</a>
-          <a href="#requirements">Bounty Fit</a>
+          <a href="#deliverables">Deliverables</a>
           <a href="https://luma.com/Solana-Summit-Nigeria">Register</a>
         </div>
       </div>
@@ -631,7 +602,7 @@
           </p>
           <div class="hero-actions">
             <a class="button" href="https://luma.com/Solana-Summit-Nigeria">Registration CTA</a>
-            <a class="button secondary" href="#requirements">View bounty fit</a>
+            <a class="button secondary" href="#deliverables">View deliverables</a>
           </div>
           <div class="hero-meta">
             <div class="meta-item">
@@ -797,17 +768,17 @@
         <div class="section-inner">
           <div class="section-head">
             <div>
-              <div class="section-kicker">Creative direction</div>
-              <h2>Nigerian heritage, Solana speed, global streetwear.</h2>
+              <div class="section-kicker">Creative statement</div>
+              <h2>A premium merchandise system for culture, technology, and community.</h2>
             </div>
-            <p>The concept avoids costume references. It abstracts Nigerian textile systems into modern apparel graphics that feel premium, culturally relevant, and wearable beyond the event.</p>
+            <p>This collection presents Solana Summit Nigeria 2026 as wearable culture: premium streetwear, resort-ready pieces, collectible packaging, and event retail designed for long-term use beyond the summit.</p>
           </div>
 
           <div class="story-grid">
-            <div class="story-item"><strong>Cultural Inspiration</strong><span>Adire-inspired resist lines become circuit paths, linking Nigerian textile memory to Internet Capital Markets.</span></div>
-            <div class="story-item"><strong>Nigerian Heritage</strong><span>Igbo uli curves, northern geometry, woven bands, and Akwa Ibom resort culture influence patterns, trims, and silhouettes.</span></div>
-            <div class="story-item"><strong>Solana Alignment</strong><span>Summit lime, Solana mint, deep green, and indigo create a future-facing visual system connected to web3 liquidity and speed.</span></div>
-            <div class="story-item"><strong>Typography + Symbolism</strong><span>Condensed uppercase type creates a poster-like summit voice; brass marks value and craft; lime bands signal market energy.</span></div>
+            <div class="story-item"><strong>Premium Merchandise System</strong><span>Designed as an integrated merchandise ecosystem rather than standalone products, ensuring consistency across apparel, accessories, packaging, and event experiences.</span></div>
+            <div class="story-item"><strong>Nigerian Storytelling</strong><span>A celebration of Nigerian excellence expressed through contemporary design, regional inspiration, and African creative identity presented for a global audience.</span></div>
+            <div class="story-item"><strong>Future of Onchain Culture</strong><span>The collection reflects Solana's vision of innovation, ownership, and Internet Capital Markets through modern graphics, technical detailing, and forward-looking aesthetics.</span></div>
+            <div class="story-item"><strong>Built for Impact</strong><span>Created to remain valuable beyond the summit, transforming event merchandise into collectible cultural artifacts that attendees proudly wear, share, and remember.</span></div>
           </div>
         </div>
       </section>
@@ -833,68 +804,27 @@
         </div>
       </section>
 
-      <section class="section alt" id="requirements">
+      <section class="section alt" id="deliverables">
         <div class="section-inner">
           <div class="section-head">
             <div>
-              <div class="section-kicker">Bounty requirement matrix</div>
-              <h2>Requirement coverage judges can scan quickly.</h2>
+              <div class="section-kicker">Deliverables included</div>
+              <h2>A complete presentation package for the official merch collection.</h2>
             </div>
-            <p>Every listed deliverable is represented in the final presentation, with the strongest sections placed before the written explanation.</p>
+            <p>The submission covers the full summit merchandise experience across apparel, lifestyle moments, packaging, event display, and retail presentation.</p>
           </div>
 
           <div class="matrix">
-            <div class="matrix-item"><span class="status">Complete</span><strong>Attendee Collection</strong><span>Heavyweight tee, cap/tote/sticker/card system.</span></div>
-            <div class="matrix-item"><span class="status">Complete</span><strong>Team Collection</strong><span>Utility overshirt and role-based uniform logic.</span></div>
-            <div class="matrix-item"><span class="status">Complete</span><strong>Beach Collection</strong><span>Camp shirt, shorts, towel, tote, and bucket hat.</span></div>
-            <div class="matrix-item"><span class="status">Complete</span><strong>Product Mockups</strong><span>Large product renders for all core pieces.</span></div>
-            <div class="matrix-item"><span class="status">Complete</span><strong>Lifestyle Mockups</strong><span>People wearing the attendee and team pieces.</span></div>
-            <div class="matrix-item"><span class="status">Complete</span><strong>Event Mockups</strong><span>Merch display and event retail presentation.</span></div>
-            <div class="matrix-item"><span class="status">Complete</span><strong>Packaging Concepts</strong><span>Reusable collector packaging system.</span></div>
-            <div class="matrix-item"><span class="status">Complete</span><strong>Booth Concepts</strong><span>Dedicated modular merch booth render.</span></div>
-            <div class="matrix-item"><span class="status strong">Strong</span><strong>Creative Direction</strong><span>Clear story, palette, type, materials, and symbolism.</span></div>
-            <div class="matrix-item"><span class="status strong">Strong</span><strong>Cultural Storytelling</strong><span>Nigerian textile systems and Akwa Ibom context.</span></div>
-            <div class="matrix-item"><span class="status strong">Strong</span><strong>Solana Branding</strong><span>Solana mint, web3 energy, market theme.</span></div>
-            <div class="matrix-item"><span class="status strong">Strong</span><strong>Production Ready</strong><span>Editable SVGs, screen-print guidance, packaging notes.</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-inner">
-          <div class="section-head">
-            <div>
-              <div class="section-kicker">Winning strategy</div>
-              <h2>What judges will reward.</h2>
-            </div>
-            <p>The strongest submissions will look like full merchandise systems, not T-shirt graphics. This presentation is structured to make that visible immediately.</p>
-          </div>
-
-          <div class="story-grid">
-            <div class="story-item"><strong>Top submissions will show</strong><span>Realistic product systems, editorial lifestyle shots, and a story that feels local without looking touristy.</span></div>
-            <div class="story-item"><strong>Judges will focus on</strong><span>Originality, cultural intelligence, Solana alignment, production realism, and whether people would proudly wear it.</span></div>
-            <div class="story-item"><strong>Biggest risk removed</strong><span>Text overflow, weak requirement coverage, small mockup labels, and unclear deliverable mapping have been addressed.</span></div>
-            <div class="story-item"><strong>Remaining opportunity</strong><span>The next jump would be photorealistic garment photography or Figma exports using official source brand assets.</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section alt">
-        <div class="section-inner">
-          <div class="section-head">
-            <div>
-              <div class="section-kicker">Final score after redesign</div>
-              <h2>Submission readiness estimate.</h2>
-            </div>
-            <p>Scores reflect the current site as an HTML/SVG presentation. Photorealistic garment renders would raise judge appeal further.</p>
-          </div>
-
-          <div class="score-grid">
-            <div class="score"><span>Design</span><strong>88</strong></div>
-            <div class="score"><span>Branding</span><strong>86</strong></div>
-            <div class="score"><span>Story</span><strong>90</strong></div>
-            <div class="score"><span>Production</span><strong>84</strong></div>
-            <div class="score"><span>Judge Appeal</span><strong>87</strong></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Attendee Collection</strong><span>Heavyweight tee, tote, cap, sticker sheet, collector card, and Luma CTA touchpoint.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Team Collection</strong><span>Utility overshirt, embroidered role patch, operations lanyard, and staff identifiers.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Beach Collection</strong><span>Camp shirt, swim short, towel, tote, and bucket hat for the Akwa Ibom resort context.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Product Mockups</strong><span>Large front, back, and detail renders across the core product lines.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Lifestyle Mockups</strong><span>On-body presentation showing how the pieces read when worn by attendees and team members.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Event Mockups</strong><span>Summit display view showing merchandise arranged as a premium collection.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Packaging Concepts</strong><span>Reusable box, tissue wrap, sticker seal, thank-you card, and collector insert.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Merch Booth Concept</strong><span>Modular retail booth with clear product zones, signage, and branded event presence.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Creative Direction</strong><span>Visual language, cultural foundation, Solana alignment, typography, palette, and symbolism.</span></div>
+            <div class="matrix-item"><span class="status">Included</span><strong>Production Notes</strong><span>Editable SVG assets, screen-print friendly color use, embroidery details, and packaging guidance.</span></div>
           </div>
         </div>
       </section>
