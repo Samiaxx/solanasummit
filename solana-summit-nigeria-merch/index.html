@@ -478,14 +478,14 @@
     }
 
     .submission-card.final-card {
-      grid-template-columns: 1fr;
+      grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.55fr);
       align-items: start;
+      gap: 42px;
     }
 
     .final-statement {
-      max-width: 1280px;
       color: var(--text);
-      font-size: clamp(22px, 2vw, 34px);
+      font-size: clamp(18px, 1.55vw, 26px);
       line-height: 1.5;
       font-weight: 700;
     }
@@ -497,6 +497,46 @@
     .final-statement p + p {
       margin-top: 22px;
       color: var(--muted);
+    }
+
+    .deliverables-panel {
+      border: 1px solid rgba(0, 255, 163, 0.38);
+      border-radius: 8px;
+      background: rgba(3, 16, 12, 0.78);
+      padding: 24px;
+      box-shadow: 0 22px 60px rgba(0, 0, 0, 0.24);
+    }
+
+    .deliverables-panel h3 {
+      margin: 0 0 18px;
+      color: var(--text);
+      font-size: clamp(22px, 1.8vw, 32px);
+      letter-spacing: 0;
+    }
+
+    .deliverables-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 12px;
+    }
+
+    .deliverables-list li {
+      color: var(--muted);
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 1.35;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .deliverables-list li::before {
+      content: "✓";
+      color: var(--mint);
+      font-weight: 900;
+      flex: 0 0 auto;
     }
 
     .footer {
@@ -844,13 +884,24 @@
       <section class="section" id="submit">
         <div class="section-inner">
           <div class="submission-card final-card">
-            <div>
-              <h2>FINAL CREATIVE STATEMENT</h2>
-            </div>
             <div class="final-statement">
+              <h2>FINAL CREATIVE STATEMENT</h2>
               <p>Solana Summit Nigeria 2026 is more than an event—it is a celebration of African innovation, community, and the future of Internet Capital Markets. This merchandise collection translates that vision into a premium apparel system inspired by Nigerian culture, contemporary streetwear, and Solana's forward-looking identity.</p>
               <p>Designed for attendees, speakers, sponsors, volunteers, and collectors, each piece balances cultural authenticity with global wearability, creating merchandise that remains meaningful long after the summit concludes.</p>
             </div>
+            <aside class="deliverables-panel" aria-label="Deliverables included">
+              <h3>DELIVERABLES INCLUDED</h3>
+              <ul class="deliverables-list">
+                <li>Attendee Collection</li>
+                <li>Team Collection</li>
+                <li>Beach Collection</li>
+                <li>Premium Packaging Concepts</li>
+                <li>Merchandise Booth Concepts</li>
+                <li>Lifestyle Mockups</li>
+                <li>Product Mockups</li>
+                <li>Production-Ready Design Assets</li>
+              </ul>
+            </aside>
           </div>
         </div>
       </section>
