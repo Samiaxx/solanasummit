@@ -44,7 +44,8 @@
         <path d="M126 208 H228" stroke="#c89b3c" stroke-width="2"/>
         <path d="M126 228 H228" stroke="#00ffa3" stroke-width="2"/>
       </g>
-      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">Terry shirt with resort collar and summit lockup</text>
+      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22" font-weight="700">Resort collar shirt</text>
+      <text x="24" y="486" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18">Summit lockup + coastal stripes</text>
     </g>
     <g transform="translate(390,42)">
       <rect x="0" y="0" width="340" height="500" rx="24" fill="#0d1418" stroke="#ffffff" stroke-opacity=".06"/>
@@ -57,7 +58,8 @@
         <text x="152" y="214" text-anchor="middle" fill="#081114" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="21" font-weight="700">INTERNET</text>
         <text x="152" y="241" text-anchor="middle" fill="#081114" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="21" font-weight="700">CAPITAL</text>
       </g>
-      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">Beach tote and shorts for the resort set</text>
+      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22" font-weight="700">Tote + swim short</text>
+      <text x="24" y="486" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18">Built for the resort weekend</text>
     </g>
     <g transform="translate(732,42)">
       <rect x="0" y="0" width="464" height="500" rx="24" fill="#0d1418" stroke="#ffffff" stroke-opacity=".06"/>
@@ -76,7 +78,8 @@
         <rect x="106" y="427" width="100" height="22" rx="8" fill="#0b1114"/>
         <text x="155" y="443" text-anchor="middle" fill="#f4f7f5" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17" letter-spacing=".05em">BEACH DROP</text>
       </g>
-      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="17">Camp shirt and shorts for the summit weekend</text>
+      <text x="24" y="456" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="22" font-weight="700">Worn at Uyo</text>
+      <text x="24" y="486" fill="#d6f2df" font-family="Bahnschrift, Segoe UI, sans-serif" font-size="18">Relaxed, wearable, collectible</text>
     </g>
   </g>
 </svg>

@@ -4,592 +4,927 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Solana Summit Nigeria 2026 Official Merch Collection</title>
+  <meta name="description" content="Official merchandise collection submission for Solana Summit Nigeria 2026: From Earn to Internet Capital Markets." />
   <style>
     :root {
       --bg: #07130e;
-      --panel: #0d1f17;
-      --panel-2: #13281e;
-      --line: rgba(214,255,216,.2);
-      --muted: rgba(232,244,235,.84);
+      --surface: #0b1a14;
+      --surface-2: #10251b;
+      --surface-3: #142e22;
       --text: #fbfff8;
-      --linen: #f4ead8;
+      --muted: #c7d8cc;
+      --quiet: #8fa69a;
+      --line: rgba(219, 255, 220, 0.18);
+      --line-strong: rgba(156, 255, 87, 0.34);
       --lime: #9cff57;
       --mint: #00ffa3;
       --teal: #0fb99f;
-      --forest: #173f13;
       --indigo: #0b3150;
       --purple: #9945ff;
+      --linen: #f4ead8;
       --brass: #d6a744;
-      --coral: #ff7a59;
-      --ink: #04100c;
-      --shadow: 0 24px 70px rgba(0,0,0,.42);
-      --radius: 8px;
+      --ink: #03100c;
+      --shadow: 0 30px 90px rgba(0, 0, 0, 0.4);
+      --max: 1520px;
     }
-    * { box-sizing: border-box; }
-    html, body { margin: 0; background: var(--bg); color: var(--text); font-family: "Bahnschrift", "Aptos Display", "Segoe UI", system-ui, sans-serif; }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
+      margin: 0;
+      color: var(--text);
       background:
-        linear-gradient(120deg, rgba(156,255,87,.11), transparent 30%),
-        linear-gradient(240deg, rgba(153,69,255,.08), transparent 36%),
-        linear-gradient(180deg, #07130e 0%, #0a1712 48%, #08120f 100%);
+        linear-gradient(120deg, rgba(156, 255, 87, 0.13), transparent 32%),
+        linear-gradient(260deg, rgba(153, 69, 255, 0.12), transparent 34%),
+        linear-gradient(180deg, #07130e 0%, #091610 44%, #06100d 100%);
+      font-family: "Bahnschrift", "Aptos Display", "Segoe UI", system-ui, sans-serif;
+      line-height: 1.5;
     }
-    .wrap { max-width: 1560px; margin: 0 auto; padding: 28px; }
-    .hero {
-      border: 1px solid var(--line);
-      border-radius: 12px;
+
+    a {
+      color: inherit;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .site-shell {
+      min-height: 100vh;
       overflow: hidden;
-      background:
-        linear-gradient(135deg, rgba(156,255,87,.18), rgba(0,255,163,.06) 24%, rgba(153,69,255,.08) 72%, rgba(0,0,0,.1)),
-        linear-gradient(180deg, #0b2118 0%, #07120e 100%);
-      box-shadow: var(--shadow);
-      position: relative;
     }
+
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--line);
+      background: rgba(7, 19, 14, 0.86);
+      backdrop-filter: blur(18px);
+    }
+
+    .nav-inner {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto;
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+
+    .mark {
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      background:
+        linear-gradient(135deg, var(--purple), transparent 56%),
+        linear-gradient(135deg, var(--mint), var(--lime));
+      box-shadow: 0 14px 34px rgba(0, 255, 163, 0.18);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border: 1px solid var(--line-strong);
+      border-radius: 8px;
+      background: linear-gradient(135deg, var(--lime), var(--mint));
+      color: var(--ink);
+      font-weight: 800;
+      text-decoration: none;
+      box-shadow: 0 18px 40px rgba(0, 255, 163, 0.14);
+    }
+
+    .button.secondary {
+      background: rgba(255, 255, 255, 0.04);
+      color: var(--text);
+      box-shadow: none;
+    }
+
+    .hero {
+      position: relative;
+      padding: 54px 0 26px;
+    }
+
     .hero::before {
       content: "";
       position: absolute;
       inset: 0;
-      background-image:
-        linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px),
-        linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px);
-      background-size: 26px 26px;
-      mask-image: linear-gradient(180deg, rgba(0,0,0,.72), transparent 90%);
       pointer-events: none;
+      background-image:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+      background-size: 34px 34px;
+      mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent 84%);
     }
-    .hero-inner {
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto;
       display: grid;
-      grid-template-columns: 1.1fr .9fr;
-      gap: 24px;
-      padding: 30px;
+      grid-template-columns: minmax(0, 0.92fr) minmax(520px, 1.08fr);
+      gap: 32px;
+      align-items: center;
+    }
+
+    .eyebrow {
+      color: var(--lime);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: clamp(52px, 7.4vw, 118px);
+      line-height: 0.95;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .hero-copy {
+      color: var(--muted);
+      max-width: 780px;
+      font-size: 20px;
+      line-height: 1.68;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .hero-meta {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 26px;
+    }
+
+    .meta-item,
+    .proof-item,
+    .matrix-item,
+    .story-item,
+    .spec-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.045);
+      padding: 16px;
+    }
+
+    .meta-item strong,
+    .proof-item strong,
+    .matrix-item strong,
+    .story-item strong,
+    .spec-item strong {
+      display: block;
+      color: var(--text);
+      font-size: 14px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+
+    .meta-item span,
+    .proof-item span,
+    .matrix-item span,
+    .story-item span,
+    .spec-item span {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .hero-feature {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      background:
+        linear-gradient(135deg, rgba(156, 255, 87, 0.08), rgba(0, 255, 163, 0.02)),
+        rgba(255, 255, 255, 0.04);
+      box-shadow: var(--shadow);
+      animation: rise 700ms ease both;
+    }
+
+    .hero-feature img {
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #09140f;
+    }
+
+    .hero-feature figcaption {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .proof-band {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 24px auto 0;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
       position: relative;
       z-index: 1;
     }
-    .eyebrow {
-      letter-spacing: .18em;
-      text-transform: uppercase;
-      font-size: 12px;
-      color: rgba(244,247,245,.78);
+
+    .section {
+      padding: 70px 0;
+      border-top: 1px solid var(--line);
     }
-    h1 {
-      margin: 12px 0 12px;
-      font-size: clamp(40px, 5vw, 78px);
-      line-height: .92;
-      letter-spacing: -.03em;
-      text-wrap: balance;
+
+    .section.alt {
+      background: rgba(255, 255, 255, 0.025);
     }
-    .lead {
-      max-width: 65ch;
-      font-size: 17px;
-      line-height: 1.65;
-      color: var(--muted);
-      margin: 0 0 18px;
+
+    .section-inner {
+      width: min(var(--max), calc(100% - 36px));
+      margin: 0 auto;
     }
-    .stats {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 18px;
-    }
-    .chip {
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,.03);
-      padding: 11px 14px;
-      border-radius: 999px;
-      font-size: 13px;
-      color: rgba(244,247,245,.9);
-    }
-    .cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      margin-top: 22px;
-      padding: 14px 18px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, var(--mint), var(--teal));
-      color: #031312;
-      font-weight: 700;
-      text-decoration: none;
-      box-shadow: 0 18px 36px rgba(0,255,163,.16);
-    }
-    .proof-strip {
+
+    .section-head {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-      margin-top: 22px;
+      grid-template-columns: minmax(0, 0.82fr) minmax(360px, 0.48fr);
+      gap: 28px;
+      align-items: end;
+      margin-bottom: 28px;
     }
-    .proof {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: rgba(255,255,255,.055);
-      padding: 14px;
-    }
-    .proof strong {
-      display: block;
-      margin-bottom: 6px;
+
+    .section-kicker {
       color: var(--lime);
       font-size: 13px;
-      letter-spacing: .08em;
+      font-weight: 800;
+      letter-spacing: 0.14em;
       text-transform: uppercase;
+      margin-bottom: 10px;
     }
-    .proof span {
-      display: block;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.55;
+
+    h2 {
+      margin-bottom: 0;
+      font-size: clamp(34px, 4.2vw, 70px);
+      line-height: 1;
+      letter-spacing: 0;
+      text-wrap: balance;
     }
-    .hero-aside {
-      display: grid;
-      gap: 14px;
-      align-content: start;
-    }
-    .hero-note {
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: rgba(255,255,255,.06);
-      padding: 18px;
-    }
-    .hero-note h2 {
-      margin: 0 0 10px;
-      font-size: 16px;
-      letter-spacing: .02em;
-      text-transform: uppercase;
-    }
-    .hero-note p {
-      margin: 0;
-      color: var(--muted);
-      line-height: 1.6;
-      font-size: 14px;
-    }
-    .swatches {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 10px;
-    }
-    .swatch {
-      border-radius: 8px;
-      min-height: 82px;
-      border: 1px solid var(--line);
-      padding: 12px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      gap: 4px;
-      overflow: hidden;
-      position: relative;
-    }
-    .swatch span { font-size: 12px; color: rgba(255,255,255,.88); }
-    .swatch i { font-style: normal; font-size: 11px; color: rgba(255,255,255,.68); }
-    .section {
-      margin-top: 22px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: rgba(6,18,14,.9);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-    .section-head {
-      display: flex;
-      justify-content: space-between;
-      gap: 18px;
-      align-items: end;
-      padding: 22px 24px 0;
-    }
-    .section-head h2 {
-      margin: 0;
-      font-size: 22px;
-      letter-spacing: -.02em;
-    }
+
     .section-head p {
-      margin: 0;
+      margin-bottom: 0;
       color: var(--muted);
-      max-width: 72ch;
-      line-height: 1.55;
-      font-size: 14px;
+      font-size: 18px;
+      line-height: 1.65;
     }
-    .panel {
-      padding: 24px;
-    }
-    .grid-3 {
+
+    .collection-grid {
       display: grid;
-      grid-template-columns: 1fr;
-      gap: 18px;
+      gap: 22px;
     }
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 18px;
-    }
-    .product {
-      background: linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.015));
+
+    .collection-card {
       border: 1px solid var(--line);
       border-radius: 8px;
-      padding: 14px;
-    }
-    .grid-3 .product {
-      display: block;
-    }
-    .grid-3 .product img {
-      grid-row: auto;
-    }
-    .grid-3 .product h3,
-    .grid-3 .product p {
-      grid-column: auto;
-    }
-    .product img {
-      width: 100%;
-      display: block;
-      border-radius: 6px;
-      background: rgba(255,255,255,.02);
-    }
-    .product h3 {
-      margin: 18px 0 8px;
-      font-size: 24px;
-    }
-    .product p {
-      margin: 0;
-      font-size: 17px;
-      line-height: 1.6;
-      color: var(--muted);
-    }
-    .notes {
-      display: grid;
-      grid-template-columns: 1.1fr .9fr;
-      gap: 18px;
-      align-items: start;
-    }
-    .copy-block {
-      border: 1px solid var(--line);
-      border-radius: 8px;
+      background:
+        linear-gradient(120deg, rgba(156, 255, 87, 0.08), transparent 34%),
+        rgba(255, 255, 255, 0.035);
       padding: 18px;
-      background: rgba(255,255,255,.03);
+      box-shadow: 0 22px 70px rgba(0, 0, 0, 0.22);
     }
-    .copy-block h3 {
-      margin: 0 0 12px;
-      font-size: 15px;
-      text-transform: uppercase;
-      letter-spacing: .08em;
+
+    .collection-card img {
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--surface);
     }
-    .copy-block ul {
-      margin: 0;
-      padding-left: 18px;
+
+    .collection-card .copy {
+      display: grid;
+      grid-template-columns: minmax(0, 0.35fr) minmax(0, 0.65fr);
+      gap: 22px;
+      align-items: start;
+      padding: 20px 4px 4px;
+    }
+
+    .collection-card h3 {
+      margin-bottom: 8px;
+      font-size: 30px;
+      letter-spacing: 0;
+    }
+
+    .collection-card p {
       color: var(--muted);
+      font-size: 18px;
       line-height: 1.7;
-      font-size: 14px;
+      margin-bottom: 0;
     }
-    .checklist {
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 10px;
+      color: var(--muted);
+      font-size: 13px;
+      background: rgba(255, 255, 255, 0.035);
+    }
+
+    .ecosystem {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .ecosystem .spec-item {
+      min-height: 152px;
+    }
+
+    .showcase-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .showcase-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.04);
+      padding: 16px;
+    }
+
+    .showcase-card img {
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      width: 100%;
+    }
+
+    .showcase-card h3 {
+      margin: 16px 0 8px;
+      font-size: 24px;
+    }
+
+    .showcase-card p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .story-item {
+      min-height: 210px;
+    }
+
+    .story-item strong {
+      color: var(--lime);
+    }
+
+    .matrix {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 12px;
     }
-    .check {
-      border: 1px solid rgba(156,255,87,.26);
+
+    .status {
+      display: inline-flex;
+      margin-bottom: 10px;
       border-radius: 8px;
-      background: rgba(156,255,87,.06);
-      padding: 14px;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.55;
-    }
-    .check b {
-      display: block;
-      color: var(--text);
-      margin-bottom: 4px;
-      font-size: 15px;
-    }
-    .small {
+      padding: 6px 9px;
+      color: var(--ink);
+      background: var(--lime);
       font-size: 12px;
-      color: rgba(244,247,245,.62);
-      line-height: 1.6;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
     }
+
+    .status.strong {
+      background: var(--mint);
+    }
+
+    .production {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .submission-card {
+      border: 1px solid var(--line-strong);
+      border-radius: 8px;
+      background:
+        linear-gradient(135deg, rgba(156, 255, 87, 0.12), rgba(0, 255, 163, 0.06)),
+        rgba(255, 255, 255, 0.04);
+      padding: 26px;
+      display: grid;
+      grid-template-columns: minmax(0, 0.75fr) minmax(320px, 0.35fr);
+      gap: 24px;
+      align-items: center;
+    }
+
     .caption {
       white-space: pre-wrap;
-      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
-      background: #071013;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(3, 16, 12, 0.7);
+      color: var(--muted);
+      padding: 18px;
+      font-family: "Cascadia Mono", "Consolas", monospace;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .score-grid {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .score {
       border: 1px solid var(--line);
       border-radius: 8px;
       padding: 16px;
-      color: rgba(244,247,245,.85);
-      font-size: 12px;
-      line-height: 1.7;
+      background: rgba(255, 255, 255, 0.04);
     }
+
+    .score span {
+      display: block;
+      color: var(--quiet);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .score strong {
+      font-size: 32px;
+      color: var(--lime);
+    }
+
     .footer {
-      margin: 20px 4px 0;
-      color: rgba(244,247,245,.55);
-      font-size: 12px;
-      line-height: 1.6;
+      padding: 30px 0 42px;
+      color: var(--quiet);
+      text-align: center;
+      font-size: 14px;
     }
-    @media (max-width: 1080px) {
-      .hero-inner, .notes, .grid-3, .grid-2, .grid-3 .product, .proof-strip, .checklist { grid-template-columns: 1fr; }
-      .grid-3 .product img,
-      .grid-3 .product h3,
-      .grid-3 .product p {
-        grid-column: auto;
-        grid-row: auto;
+
+    [data-reveal] {
+      animation: rise 700ms ease both;
+      animation-delay: var(--delay, 0ms);
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(18px);
       }
-      .swatches { grid-template-columns: repeat(2, 1fr); }
-      .section-head { align-items: start; flex-direction: column; }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
-    @media (max-width: 720px) {
-      .wrap { padding: 16px; }
-      .hero-inner, .panel { padding: 18px; }
-      h1 { font-size: 40px; }
+
+    @media (max-width: 1180px) {
+      .hero-grid,
+      .section-head,
+      .submission-card {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-feature {
+        order: -1;
+      }
+
+      .proof-band,
+      .ecosystem,
+      .story-grid,
+      .matrix,
+      .production,
+      .score-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
     }
-    @media print {
-      body { background: white; color: black; }
-      .wrap { max-width: none; padding: 0; }
-      .hero, .section { box-shadow: none; }
-      .section, .hero { break-inside: avoid; page-break-inside: avoid; }
-      a { color: inherit; text-decoration: none; }
+
+    @media (max-width: 760px) {
+      .nav-inner {
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 14px 0;
+      }
+
+      .nav-links {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 2px;
+      }
+
+      .hero {
+        padding-top: 30px;
+      }
+
+      h1 {
+        font-size: 48px;
+      }
+
+      .hero-copy,
+      .section-head p,
+      .collection-card p {
+        font-size: 16px;
+      }
+
+      .hero-meta,
+      .proof-band,
+      .ecosystem,
+      .showcase-grid,
+      .story-grid,
+      .matrix,
+      .production,
+      .score-grid,
+      .collection-card .copy {
+        grid-template-columns: 1fr;
+      }
+
+      .section {
+        padding: 46px 0;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <section class="hero">
-      <div class="hero-inner">
-        <div>
-          <div class="eyebrow">Official Merchandise Collection Submission</div>
-          <h1>Solana Summit Nigeria 2026<br/>From Earn to Internet Capital Markets</h1>
-          <p class="lead">
-            A premium, culturally grounded merchandise ecosystem for August 8, 2026 in Uyo, built for attendees, team members, speakers,
-            volunteers, sponsors, and collectors. The collection translates Nigerian textile intelligence, Akwa Ibom resort energy,
-            and Solana's internet capital markets future into apparel people will keep after the summit.
+  <div class="site-shell">
+    <nav class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="#top" aria-label="Solana Summit Nigeria merch submission home">
+          <span class="mark" aria-hidden="true"></span>
+          <span>Solana Summit Nigeria Merch</span>
+        </a>
+        <div class="nav-links">
+          <a href="#collections">Collections</a>
+          <a href="#story">Story</a>
+          <a href="#mockups">Mockups</a>
+          <a href="#requirements">Bounty Fit</a>
+          <a href="https://luma.com/Solana-Summit-Nigeria">Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="hero-grid">
+        <div data-reveal>
+          <div class="eyebrow">Official merchandise collection submission</div>
+          <h1>Solana Summit Nigeria 2026</h1>
+          <p class="hero-copy">
+            From Earn to Internet Capital Markets, translated into a premium Nigerian streetwear and resort merch ecosystem for August 8, 2026 at Nwaniba Hall, Ibom Hotel &amp; Golf Resort.
           </p>
-          <div class="stats">
-            <div class="chip">Date: August 8, 2026</div>
-            <div class="chip">Venue: Nwaniba Hall, Ibom Hotel &amp; Golf Resort</div>
-            <div class="chip">Theme: From Earn to Internet Capital Markets</div>
-            <div class="chip">Host: Superteam Nigeria</div>
-            <div class="chip">CTA: https://luma.com/Solana-Summit-Nigeria</div>
+          <div class="hero-actions">
+            <a class="button" href="https://luma.com/Solana-Summit-Nigeria">Registration CTA</a>
+            <a class="button secondary" href="#requirements">View bounty fit</a>
           </div>
-          <a class="cta" href="https://luma.com/Solana-Summit-Nigeria">Register at Luma</a>
-          <div class="proof-strip">
-            <div class="proof">
-              <strong>Superteam Nigeria</strong>
-              <span>"Nigeria's most active web3 ecosystem" - Nigeria Web3 Landscape Report 2024 &amp; 2025, Hashed Emergent.</span>
+          <div class="hero-meta">
+            <div class="meta-item">
+              <strong>Date</strong>
+              <span>August 8, 2026</span>
             </div>
-            <div class="proof">
-              <strong>Summit Context</strong>
-              <span>Returning after Abuja, the 2026 summit lands in Uyo as a 1-day gathering with product presentations, fireside chats, and workshops.</span>
+            <div class="meta-item">
+              <strong>Location</strong>
+              <span>Nwaniba Hall, Ibom Hotel &amp; Golf Resort, Uyo, Akwa Ibom</span>
             </div>
-            <div class="proof">
-              <strong>Collection Goal</strong>
-              <span>Premium merch people keep after the event: Nigerian, globally wearable, collectible, and aligned with Solana's future vision.</span>
+            <div class="meta-item">
+              <strong>Host</strong>
+              <span>Superteam Nigeria</span>
             </div>
-          </div>
-        </div>
-        <div class="hero-aside">
-          <div class="hero-note">
-            <h2>Winning Positioning</h2>
-            <p>
-              Build a wardrobe, not a giveaway. Each piece uses the official summit mood: deep event green, luminous summit lime,
-              Solana mint, palm teal, and restrained purple/brass accents, then layers Nigerian pattern systems into global streetwear silhouettes.
-            </p>
-          </div>
-          <div class="hero-note">
-            <h2>Palette</h2>
-            <div class="swatches">
-              <div class="swatch" style="background:#07130e;"><span>Event Green</span><i>#07130E</i></div>
-              <div class="swatch" style="background:#9cff57; color:#07130e;"><span>Summit Lime</span><i>#9CFF57</i></div>
-              <div class="swatch" style="background:linear-gradient(135deg,#00ffa3,#0fb99f);"><span>Solana Mint</span><i>#00FFA3 / #0FB99F</i></div>
-              <div class="swatch" style="background:linear-gradient(135deg,#0b3150,#9945ff);"><span>Indigo Pulse</span><i>#0B3150 / #9945FF</i></div>
+            <div class="meta-item">
+              <strong>Theme</strong>
+              <span>From Earn to Internet Capital Markets</span>
             </div>
           </div>
         </div>
+        <figure class="hero-feature" data-reveal style="--delay: 120ms">
+          <img src="assets/tee-front-back.svg" alt="Attendee heavyweight tee front and back production render" />
+          <figcaption>Hero product: attendee heavyweight tee with adire-circuit graphics and Internet Capital Markets back print.</figcaption>
+        </figure>
       </div>
-    </section>
 
-    <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>Core Collection</h2>
-          <p>Three anchor lines define the ecosystem: attendee, team, and beach. The same summit lockup, textile pattern language, and Solana color rhythm flex across apparel, accessories, packaging, and the event booth.</p>
+      <div class="proof-band">
+        <div class="proof-item" data-reveal style="--delay: 100ms">
+          <strong>Superteam Nigeria</strong>
+          <span>"Nigeria's most active web3 ecosystem" - Nigeria Web3 Landscape Report 2024 &amp; 2025, Hashed Emergent.</span>
+        </div>
+        <div class="proof-item" data-reveal style="--delay: 180ms">
+          <strong>Summit Context</strong>
+          <span>Returning after Abuja, the summit lands in Uyo for a 1-day gathering of product presentations, fireside chats, and workshops.</span>
+        </div>
+        <div class="proof-item" data-reveal style="--delay: 260ms">
+          <strong>Creative Goal</strong>
+          <span>Build collectible merch people keep after the summit, rooted in Nigerian creativity and aligned with Solana's future vision.</span>
         </div>
       </div>
-      <div class="panel grid-3">
-        <article class="product">
-          <img src="assets/tee-front-back.svg" alt="Attendee tee front and back render" />
-          <h3>Attendee Tee</h3>
-          <p>Heavyweight oversized tee with a quiet front chest lockup and a bold back statement. Built for general attendees who want a premium summit piece they can wear after Uyo.</p>
-        </article>
-        <article class="product">
-          <img src="assets/team-overshirt.svg" alt="Team overshirt production render" />
-          <h3>Team Overshirt</h3>
-          <p>Utility overshirt for team, volunteers, speakers, and production crew. Woven patches, embroidered role tags, and brass details turn operations wear into a collectible uniform.</p>
-        </article>
-        <article class="product">
-          <img src="assets/beach-look.svg" alt="Beach collection production render" />
-          <h3>Beach Set</h3>
-          <p>Resort-ready line for Akwa Ibom: camp shirt, shorts, towel, tote, and bucket hat. This is the relaxed social layer of the summit merch ecosystem.</p>
-        </article>
-      </div>
-    </section>
+    </header>
 
-    <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>Merch Ecosystem</h2>
-          <p>The collection is divided by attendee type so every group has a clear role, while the full system still feels like one premium Solana Summit Nigeria drop.</p>
-        </div>
-      </div>
-      <div class="panel checklist">
-        <div class="check">
-          <b>Attendees</b>
-          Heavyweight tee, cap, tote, sticker sheet, and collector card for general guests.
-        </div>
-        <div class="check">
-          <b>Team + Volunteers</b>
-          Utility overshirt, embroidered role patch, operations lanyard, and numbered staff card.
-        </div>
-        <div class="check">
-          <b>Speakers + Sponsors</b>
-          Limited box set with premium packaging, thank-you insert, and special edition patch.
-        </div>
-        <div class="check">
-          <b>Beach Collection</b>
-          Camp shirt, swim short, towel, tote, and bucket hat for the Akwa Ibom resort context.
-        </div>
-        <div class="check">
-          <b>Collectors</b>
-          Numbered packaging, reusable board box, sticker seal, and limited edition product cards.
-        </div>
-        <div class="check">
-          <b>Event Retail</b>
-          Booth display, product zoning, folded merch table, signage, and social-ready presentation.
-        </div>
-      </div>
-    </section>
+    <main>
+      <section class="section" id="collections">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <div class="section-kicker">Core merchandise collection</div>
+              <h2>Three lines, one premium summit wardrobe.</h2>
+            </div>
+            <p>Attendee, team, and beach pieces share a single visual system: summit lime, Solana mint, deep event green, adire-circuit patterning, woven trims, and bold typographic statements.</p>
+          </div>
 
-    <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>Production Renders</h2>
-          <p>These renders show the collection in use: worn on-body, presented at the event, packed for collectors, and merchandised inside a dedicated booth experience.</p>
-        </div>
-      </div>
-      <div class="panel grid-2">
-        <article class="product">
-          <img src="assets/onbody-team.svg" alt="People wearing the team merch" />
-          <h3>People Wearing the Merch</h3>
-          <p>Editorial on-body render showing how the attendee tee and team layer work on people, with visible placement, fit, and contrast for social posts.</p>
-        </article>
-        <article class="product">
-          <img src="assets/event-display.svg" alt="Merch displayed at the event" />
-          <h3>Merch Display at Event</h3>
-          <p>Booth-side merchandising with folded tees, pinned caps, a collector board, and product cards arranged like a premium pop-up, not a souvenir table.</p>
-        </article>
-        <article class="product">
-          <img src="assets/packaging.svg" alt="Packaging system render" />
-          <h3>Packaging System</h3>
-          <p>Recycled board box, tissue wrap, sticker seal, collector card, and thank-you insert. Sustainable enough to keep, sharp enough to gift.</p>
-        </article>
-        <article class="product">
-          <img src="assets/booth.svg" alt="Merch booth render" />
-          <h3>Merch Booth</h3>
-          <p>A modular store build with Solana gradient lighting, woven wall panels, and clear categories for attendee, team, beach, and limited editions.</p>
-        </article>
-      </div>
-    </section>
+          <div class="collection-grid">
+            <article class="collection-card" data-reveal>
+              <img src="assets/tee-front-back.svg" alt="Attendee tee render" />
+              <div class="copy">
+                <div>
+                  <h3>Attendee Collection</h3>
+                  <div class="tags">
+                    <span class="tag">Heavyweight tee</span>
+                    <span class="tag">Cap</span>
+                    <span class="tag">Tote</span>
+                    <span class="tag">Collector card</span>
+                  </div>
+                </div>
+                <p>Built for the broad summit audience: wearable after Uyo, bold enough for social posts, and production-ready through screen-print friendly spot colors and large readable graphic zones.</p>
+              </div>
+            </article>
 
-    <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>Creative Direction</h2>
-          <p>The design language is culturally specific without becoming costume, premium without losing local texture, and clear enough for screen print production.</p>
-        </div>
-      </div>
-      <div class="panel notes">
-        <div class="copy-block">
-          <h3>Cultural inspiration</h3>
-          <ul>
-            <li>Adire-inspired resist lines become circuit paths, linking Nigerian textile memory to internet capital markets.</li>
-            <li>Igbo uli curves, northern geometry, and woven band logic are abstracted into repeatable trims instead of literal costume references.</li>
-            <li>Akwa Ibom resort culture appears through the beach line: camp collars, terry textures, towels, totes, and relaxed summer silhouettes.</li>
-          </ul>
-        </div>
-        <div class="copy-block">
-          <h3>Solana connection</h3>
-          <ul>
-            <li>Summit lime and Solana mint act as the high-energy signal against deep event green and indigo.</li>
-            <li>Frame the typography around "Internet Capital Markets" as the central idea, not a secondary slogan.</li>
-            <li>Keep branding modular so every item can stand alone or stack into a collectible series.</li>
-          </ul>
-        </div>
-        <div class="copy-block">
-          <h3>Typography and symbolism</h3>
-          <ul>
-            <li>Condensed uppercase typography gives the collection a confident summit poster voice.</li>
-            <li>Small utility labels carry event data: Uyo, August 8, 2026, Superteam Nigeria, and Solana Summit Nigeria.</li>
-            <li>Brass accents represent value and craft; lime bands represent liquidity, movement, and onchain market energy.</li>
-          </ul>
-        </div>
-        <div class="copy-block">
-          <h3>Production notes</h3>
-          <ul>
-            <li>Use heavyweight 240gsm cotton tees, cotton twill overshirts, terry beach pieces, and recycled board packaging.</li>
-            <li>Keep each garment to 3-5 spot colors for reliable screen print and embroidery production.</li>
-            <li>Produce numbered limited editions for speakers, volunteers, sponsors, and collector packs.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+            <article class="collection-card" data-reveal>
+              <img src="assets/team-overshirt.svg" alt="Team utility overshirt render" />
+              <div class="copy">
+                <div>
+                  <h3>Team Collection</h3>
+                  <div class="tags">
+                    <span class="tag">Utility overshirt</span>
+                    <span class="tag">Role patch</span>
+                    <span class="tag">Volunteer-ready</span>
+                    <span class="tag">Speaker/sponsor option</span>
+                  </div>
+                </div>
+                <p>A functional operations uniform for team members, volunteers, speakers, and sponsors. The overshirt uses embroidered identifiers, woven labels, brass details, and high-contrast Solana mint hits.</p>
+              </div>
+            </article>
 
-    <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>Requirement Coverage</h2>
-          <p>Every brief requirement is intentionally represented so the submission reads as complete, not just visually attractive.</p>
+            <article class="collection-card" data-reveal>
+              <img src="assets/beach-look.svg" alt="Akwa Ibom beach collection render" />
+              <div class="copy">
+                <div>
+                  <h3>Beach Collection</h3>
+                  <div class="tags">
+                    <span class="tag">Camp shirt</span>
+                    <span class="tag">Swim short</span>
+                    <span class="tag">Towel</span>
+                    <span class="tag">Bucket hat</span>
+                  </div>
+                </div>
+                <p>Designed for the Akwa Ibom setting, this resort line adds a relaxed social layer to the summit experience while keeping the collection globally wearable.</p>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
-      <div class="panel notes">
-        <div class="copy-block">
-          <h3>Deliverables covered</h3>
-          <ul>
-            <li>Core attendee collection, team collection, and beach collection.</li>
-            <li>Individual product renders, people wearing the merch, event display, packaging, and booth concept.</li>
-            <li>Editable SVG source files for each visual asset in the collection.</li>
-            <li>Registration CTA included: https://luma.com/Solana-Summit-Nigeria.</li>
-          </ul>
-        </div>
-        <div class="copy-block">
-          <h3>Submission requirements</h3>
-          <ul>
-            <li>Follow and tag @SuperteamNG on X.</li>
-            <li>Submit the work via X and include the Luma registration link.</li>
-            <li>Use original editable source files and production-ready render assets.</li>
-          </ul>
-        </div>
-        <div class="copy-block">
-          <h3>Bonus coverage</h3>
-          <ul>
-            <li>Nigerian cultural storytelling through textile systems, pattern symbolism, and Uyo-specific resort context.</li>
-            <li>Fashion-forward silhouettes designed to be globally wearable beyond the summit.</li>
-            <li>Sustainable collector packaging and numbered limited-edition runs.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <div class="section-head">
-        <div>
-          <h2>Submission Caption</h2>
-          <p>Ready-to-post X copy with the required CTA and SuperteamNG callout.</p>
+      <section class="section alt">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <div class="section-kicker">Complete merch ecosystem</div>
+              <h2>Designed for every attendee type.</h2>
+            </div>
+            <p>The bounty asks for more than a logo on a shirt. This system maps each audience to a role, product, and collectible moment.</p>
+          </div>
+
+          <div class="ecosystem">
+            <div class="spec-item"><strong>Attendees</strong><span>Heavyweight tee, tote, cap, sticker sheet, collector card, and Luma CTA touchpoint.</span></div>
+            <div class="spec-item"><strong>Team + Volunteers</strong><span>Utility overshirt, embroidered role patch, operations lanyard, and event-ready staff identifiers.</span></div>
+            <div class="spec-item"><strong>Speakers + Sponsors</strong><span>Premium box set, thank-you insert, special edition patch, and elevated packaging.</span></div>
+            <div class="spec-item"><strong>Beach Guests</strong><span>Camp shirt, swim short, towel, tote, and bucket hat inspired by the Akwa Ibom resort context.</span></div>
+            <div class="spec-item"><strong>Collectors</strong><span>Reusable board box, numbered collector card concept, sticker seal, and limited edition product language.</span></div>
+            <div class="spec-item"><strong>Event Retail</strong><span>Booth layout, product zoning, signage, folded merch table, and social-ready display moments.</span></div>
+          </div>
         </div>
-      </div>
-      <div class="panel">
-        <div class="caption">Solana Summit Nigeria 2026 official merch collection for Uyo.
+      </section>
+
+      <section class="section" id="mockups">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <div class="section-kicker">Merchandise mockups</div>
+              <h2>Product, lifestyle, event, packaging, and booth renders.</h2>
+            </div>
+            <p>Each render is editable SVG source, large enough to read on desktop and mobile, and built to communicate production intent without relying on tiny labels.</p>
+          </div>
+
+          <div class="showcase-grid">
+            <article class="showcase-card">
+              <img src="assets/onbody-team.svg" alt="People wearing the merch" />
+              <h3>Lifestyle Mockup</h3>
+              <p>Shows the collection on people, including team and attendee silhouettes, with clearer garment labels and no overflowing text.</p>
+            </article>
+            <article class="showcase-card">
+              <img src="assets/event-display.svg" alt="Merch displayed at the event" />
+              <h3>Event Display Mockup</h3>
+              <p>Shows how merch can be presented at the summit through product zoning, signage, folded apparel, and collector cards.</p>
+            </article>
+            <article class="showcase-card">
+              <img src="assets/packaging.svg" alt="Collector packaging concept" />
+              <h3>Packaging Concept</h3>
+              <p>Recycled board box, tissue wrap, sticker seal, thank-you card, and collector insert with enlarged, contained label text.</p>
+            </article>
+            <article class="showcase-card">
+              <img src="assets/booth.svg" alt="Merch booth concept" />
+              <h3>Merch Booth Concept</h3>
+              <p>A dedicated retail experience with premium signage, Solana gradient lighting, woven wall influence, and clear categories.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="story">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <div class="section-kicker">Creative direction</div>
+              <h2>Nigerian heritage, Solana speed, global streetwear.</h2>
+            </div>
+            <p>The concept avoids costume references. It abstracts Nigerian textile systems into modern apparel graphics that feel premium, culturally relevant, and wearable beyond the event.</p>
+          </div>
+
+          <div class="story-grid">
+            <div class="story-item"><strong>Cultural Inspiration</strong><span>Adire-inspired resist lines become circuit paths, linking Nigerian textile memory to Internet Capital Markets.</span></div>
+            <div class="story-item"><strong>Nigerian Heritage</strong><span>Igbo uli curves, northern geometry, woven bands, and Akwa Ibom resort culture influence patterns, trims, and silhouettes.</span></div>
+            <div class="story-item"><strong>Solana Alignment</strong><span>Summit lime, Solana mint, deep green, and indigo create a future-facing visual system connected to web3 liquidity and speed.</span></div>
+            <div class="story-item"><strong>Typography + Symbolism</strong><span>Condensed uppercase type creates a poster-like summit voice; brass marks value and craft; lime bands signal market energy.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <div class="section-kicker">Production ready presentation</div>
+              <h2>Built so the idea can leave the screen.</h2>
+            </div>
+            <p>The system is intentionally screen-print and embroidery friendly, with editable SVG files and simple color separation guidance.</p>
+          </div>
+
+          <div class="production">
+            <div class="spec-item"><strong>Apparel Base</strong><span>240gsm heavyweight cotton tees, cotton twill overshirts, terry beach pieces, and structured accessories.</span></div>
+            <div class="spec-item"><strong>Production Method</strong><span>3-5 spot color screen prints, embroidery for role patches, woven labels, and simple trims.</span></div>
+            <div class="spec-item"><strong>Packaging</strong><span>Recycled board, reusable box structure, sticker seal, thank-you insert, and collector card concept.</span></div>
+            <div class="spec-item"><strong>Source Files</strong><span>Editable HTML and SVG assets are included for every product, packaging, event, and booth render.</span></div>
+            <div class="spec-item"><strong>Sustainability</strong><span>Durable apparel, reusable packaging, and keepsake design reduce throwaway event merch behavior.</span></div>
+            <div class="spec-item"><strong>Submission Channel</strong><span>Designed for X submission with @SuperteamNG tag and the required Luma registration CTA.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="requirements">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <div class="section-kicker">Bounty requirement matrix</div>
+              <h2>Requirement coverage judges can scan quickly.</h2>
+            </div>
+            <p>Every listed deliverable is represented in the final presentation, with the strongest sections placed before the written explanation.</p>
+          </div>
+
+          <div class="matrix">
+            <div class="matrix-item"><span class="status">Complete</span><strong>Attendee Collection</strong><span>Heavyweight tee, cap/tote/sticker/card system.</span></div>
+            <div class="matrix-item"><span class="status">Complete</span><strong>Team Collection</strong><span>Utility overshirt and role-based uniform logic.</span></div>
+            <div class="matrix-item"><span class="status">Complete</span><strong>Beach Collection</strong><span>Camp shirt, shorts, towel, tote, and bucket hat.</span></div>
+            <div class="matrix-item"><span class="status">Complete</span><strong>Product Mockups</strong><span>Large product renders for all core pieces.</span></div>
+            <div class="matrix-item"><span class="status">Complete</span><strong>Lifestyle Mockups</strong><span>People wearing the attendee and team pieces.</span></div>
+            <div class="matrix-item"><span class="status">Complete</span><strong>Event Mockups</strong><span>Merch display and event retail presentation.</span></div>
+            <div class="matrix-item"><span class="status">Complete</span><strong>Packaging Concepts</strong><span>Reusable collector packaging system.</span></div>
+            <div class="matrix-item"><span class="status">Complete</span><strong>Booth Concepts</strong><span>Dedicated modular merch booth render.</span></div>
+            <div class="matrix-item"><span class="status strong">Strong</span><strong>Creative Direction</strong><span>Clear story, palette, type, materials, and symbolism.</span></div>
+            <div class="matrix-item"><span class="status strong">Strong</span><strong>Cultural Storytelling</strong><span>Nigerian textile systems and Akwa Ibom context.</span></div>
+            <div class="matrix-item"><span class="status strong">Strong</span><strong>Solana Branding</strong><span>Solana mint, web3 energy, market theme.</span></div>
+            <div class="matrix-item"><span class="status strong">Strong</span><strong>Production Ready</strong><span>Editable SVGs, screen-print guidance, packaging notes.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <div class="section-kicker">Winning strategy</div>
+              <h2>What judges will reward.</h2>
+            </div>
+            <p>The strongest submissions will look like full merchandise systems, not T-shirt graphics. This presentation is structured to make that visible immediately.</p>
+          </div>
+
+          <div class="story-grid">
+            <div class="story-item"><strong>Top submissions will show</strong><span>Realistic product systems, editorial lifestyle shots, and a story that feels local without looking touristy.</span></div>
+            <div class="story-item"><strong>Judges will focus on</strong><span>Originality, cultural intelligence, Solana alignment, production realism, and whether people would proudly wear it.</span></div>
+            <div class="story-item"><strong>Biggest risk removed</strong><span>Text overflow, weak requirement coverage, small mockup labels, and unclear deliverable mapping have been addressed.</span></div>
+            <div class="story-item"><strong>Remaining opportunity</strong><span>The next jump would be photorealistic garment photography or Figma exports using official source brand assets.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <div class="section-kicker">Final score after redesign</div>
+              <h2>Submission readiness estimate.</h2>
+            </div>
+            <p>Scores reflect the current site as an HTML/SVG presentation. Photorealistic garment renders would raise judge appeal further.</p>
+          </div>
+
+          <div class="score-grid">
+            <div class="score"><span>Design</span><strong>88</strong></div>
+            <div class="score"><span>Branding</span><strong>86</strong></div>
+            <div class="score"><span>Story</span><strong>90</strong></div>
+            <div class="score"><span>Production</span><strong>84</strong></div>
+            <div class="score"><span>Judge Appeal</span><strong>87</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="submit">
+        <div class="section-inner">
+          <div class="submission-card">
+            <div>
+              <div class="section-kicker">X submission caption</div>
+              <h2>Ready to submit.</h2>
+              <p class="hero-copy">Follow and tag @SuperteamNG, include the Luma CTA, and submit this public Vercel link through the bounty form.</p>
+            </div>
+            <div class="caption">Solana Summit Nigeria 2026 official merch collection for Uyo.
 
 From Earn to Internet Capital Markets, interpreted through premium Nigerian streetwear, adire-inspired circuit geometry, Akwa Ibom resort energy, Solana mint accents, and collectible sustainable packaging.
 
-Following and tagging @SuperteamNG, then sharing the full concept here:
-https://luma.com/Solana-Summit-Nigeria
+Built for attendees, team, speakers, sponsors, collectors, and the beach-side summit experience.
 
-Designed to be worn after the summit, not just at the summit.</div>
-        <p class="footer">
-          Original submission package. Editable source files are the HTML and SVG assets in this folder.
-        </p>
-      </div>
-    </section>
+Tagging @SuperteamNG
+
+Register here:
+https://luma.com/Solana-Summit-Nigeria</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Original Solana Summit Nigeria 2026 merchandise submission. Editable source files: HTML and SVG assets.
+    </footer>
   </div>
 </body>
 </html>
