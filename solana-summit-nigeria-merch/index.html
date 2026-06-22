@@ -477,16 +477,26 @@
       align-items: center;
     }
 
-    .caption {
-      white-space: pre-wrap;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: rgba(3, 16, 12, 0.7);
+    .submission-card.final-card {
+      grid-template-columns: 1fr;
+      align-items: start;
+    }
+
+    .final-statement {
+      max-width: 1280px;
+      color: var(--text);
+      font-size: clamp(22px, 2vw, 34px);
+      line-height: 1.5;
+      font-weight: 700;
+    }
+
+    .final-statement p {
+      margin: 0;
+    }
+
+    .final-statement p + p {
+      margin-top: 22px;
       color: var(--muted);
-      padding: 18px;
-      font-family: "Cascadia Mono", "Consolas", monospace;
-      font-size: 14px;
-      line-height: 1.7;
     }
 
     .footer {
@@ -833,22 +843,14 @@
 
       <section class="section" id="submit">
         <div class="section-inner">
-          <div class="submission-card">
+          <div class="submission-card final-card">
             <div>
-              <div class="section-kicker">X submission caption</div>
-              <h2>Ready to submit.</h2>
-              <p class="hero-copy">Follow and tag @SuperteamNG, include the Luma CTA, and submit this public Vercel link through the bounty form.</p>
+              <h2>FINAL CREATIVE STATEMENT</h2>
             </div>
-            <div class="caption">Solana Summit Nigeria 2026 official merch collection for Uyo.
-
-From Earn to Internet Capital Markets, interpreted through premium Nigerian streetwear, adire-inspired circuit geometry, Akwa Ibom resort energy, Solana mint accents, and collectible sustainable packaging.
-
-Built for attendees, team, speakers, sponsors, collectors, and the beach-side summit experience.
-
-Tagging @SuperteamNG
-
-Register here:
-https://luma.com/Solana-Summit-Nigeria</div>
+            <div class="final-statement">
+              <p>Solana Summit Nigeria 2026 is more than an event—it is a celebration of African innovation, community, and the future of Internet Capital Markets. This merchandise collection translates that vision into a premium apparel system inspired by Nigerian culture, contemporary streetwear, and Solana's forward-looking identity.</p>
+              <p>Designed for attendees, speakers, sponsors, volunteers, and collectors, each piece balances cultural authenticity with global wearability, creating merchandise that remains meaningful long after the summit concludes.</p>
+            </div>
           </div>
         </div>
       </section>
