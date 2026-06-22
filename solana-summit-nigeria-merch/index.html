@@ -85,20 +85,41 @@
     .brand {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 14px;
       text-decoration: none;
       font-weight: 800;
-      letter-spacing: 0.08em;
+      letter-spacing: 0;
       text-transform: uppercase;
-      font-size: 13px;
+      color: var(--text);
     }
 
     .mark {
-      width: 38px;
-      height: 38px;
-      border-radius: 8px;
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
       background: url("assets/ssn-favicon.svg") center / cover no-repeat;
-      box-shadow: 0 14px 34px rgba(0, 255, 163, 0.18);
+      box-shadow: 0 16px 40px rgba(0, 255, 163, 0.22);
+      flex: 0 0 auto;
+    }
+
+    .brand-wordmark {
+      display: grid;
+      gap: 2px;
+      line-height: 1;
+    }
+
+    .brand-wordmark strong {
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 900;
+      letter-spacing: 0.07em;
+    }
+
+    .brand-wordmark span {
+      color: var(--mint);
+      font-size: 11px;
+      font-weight: 900;
+      letter-spacing: 0.18em;
     }
 
     .nav-links {
@@ -630,9 +651,12 @@
   <div class="site-shell">
     <nav class="nav">
       <div class="nav-inner">
-        <a class="brand" href="#top" aria-label="Solana Summit Nigeria merch submission home">
+        <a class="brand" href="#top" aria-label="Solana Summit Nigeria 2026 home">
           <span class="mark" aria-hidden="true"></span>
-          <span>Solana Summit Nigeria Merch</span>
+          <span class="brand-wordmark">
+            <strong>Solana Summit Nigeria</strong>
+            <span>2026</span>
+          </span>
         </a>
         <div class="nav-links">
           <a href="#collections">Collections</a>
